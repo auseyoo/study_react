@@ -1,24 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const [abc, setAbc] = useState('화이팅');
+
+  const handleButtonClick = () => {
+    console.log('click');
+    setAbc('잘자');
+  };
+
+  const handleButtonClick2 = () => {
+    setAbc('잘잤다');
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {abc}
+      <button onClick={handleButtonClick}>미연아</button>
+      <button onClick={handleButtonClick2}>잘잤냐</button>
     </div>
   );
 }
