@@ -51,5 +51,13 @@
 
 #4일차
 
-1. material ui import  
+1. material ui import하기  
    yarn add @mui/material
+
+2. yarn add @emotion/react 설치
+
+3. yarn add @emotion/styled 설치
+
+4. button -> material ui Button으로 변경
+
+5. map
