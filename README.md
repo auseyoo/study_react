@@ -20,3 +20,36 @@
    <li>ㅇㅇ</li>
    <li>ㅇㅇ</li>
 </ol>
+
+---
+
+# 3일차
+
+1. useState 사용
+
+   1. String
+
+   - const [firstString, setFirstString] = useState('');
+
+   2. Number
+
+   - const [secondNumber, setSecondNumber] = useState(0);
+
+2. State 랜더링하기
+
+   firstString: {firstString}
+
+3. 함수 만들기  
+   const handleButtonClick = () => { console.log('click'); setAbc('잘자'); };
+
+4. if
+
+   const numberButtonClickEqal = () => { setSecondNumber(Number(secondString));  
+   let tmpSecondNumber: number = Number(secondString); //1.resultNumber에 결과값 넣고싶음 //2.결과값 = 더하기, 빼기, 나누기, 곱하기 // 더하기 = firstNumber + secondNumber // if (operatorString === '+') { setResultNumber(firstNumber + tmpSecondNumber); console.log('여기는 플러스'); } else if (operatorString === '-') { setResultNumber(firstNumber - tmpSecondNumber); } else if (operatorString === '_') { setResultNumber(firstNumber _ tmpSecondNumber); } else if (operatorString === '/') { setResultNumber(firstNumber / tmpSecondNumber); } };
+
+---
+
+#4일차
+
+1. material ui import  
+   yarn add @mui/material
