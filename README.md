@@ -60,4 +60,6 @@
 
 4. button -> material ui Button으로 변경
 
-5. map
+5. 함수 선언 후 map
+
+const arr = [1, 2, 3, 4]; arr.map((miyeon) => { // console.log('hrere'); // console.log(miyeon); });
